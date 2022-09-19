@@ -1,0 +1,45 @@
+h1 {
+  color: white;
+}
+#firstblock {
+  background-color: blue;
+}
+a {
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+h2 {
+  color: blue;
+}
+.spanstyle {
+  color: yellow;
+}
+h3 {
+  background-color: yellow;
+}
+#deunderline {
+  text-decoration: none;
+}
+#redtext {
+  color: red;
+}
+h4 {
+  color: yellow;
+  background-color: green;
+}
+#greenbackground {
+  background-color: green;
+}
+#yellowbackground {
+  background-color: yellow;
+}
+h5 {
+  color: red;
+}
+.spanstyle2 {
+  color: blue;
+}
