@@ -1,0 +1,78 @@
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  display: block;
+  margin: 10px;
+  padding: 20px;
+  width: 1290px;
+  background-color: white;
+}
+body {
+  background-image: url(a5bg.png);
+}
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: normal;
+}
+nav li {
+  margin: 10px;
+  padding: 0px;
+  width: 150px;
+  display: inline-block;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li a {
+  background-color: #000075;
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: blue;
+  diaplay: block;
+}
+main {
+  display: block;
+  margin: 10px;
+  padding: 20px;
+  width: 1290px;
+  background-color: white;
+}
+p {
+  text-align: justify;
+}
+main a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+main a:visited {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+main a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+footer {
+  display: block;
+  margin: 10px;
+  padding: 20px;
+  width: 1290px;
+  background-color: #000075;
+  border: 3px solid white;
+  }
+  footer p {
+    color: white;
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+  }
