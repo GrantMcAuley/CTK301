@@ -20,6 +20,7 @@ body {
   grid-column: span 1;
 }
 header {
+  font-family: 'Rubik', sans-serif;
   grid-column: span 12;
   background-color: #2F2F2E;
   text-transform: uppercase;
@@ -104,6 +105,24 @@ footer {
   padding-left: 20px;
 }
 
+footer a {
+  color: white;
+  font-size: 2em;
+  transition all .5s;
+  text-shadow: 1px 1px 1px black;
+}
+
+footer a:hover {
+  color: #EEF19C;
+  font-size: 2em;
+  text-shadow: 3px 3px 3px black;
+  grid-column: span 12;
+}
+
 article p {
   padding-left: 25px;
 }
+ video {
+   border-radius: 10px;
+   padding-top: 20px
+ }
