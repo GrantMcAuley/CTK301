@@ -28,20 +28,28 @@
 
 		<main>
 
-			<article>
 			<video width="640" height="360" autoplay controls loop preload="auto" >
 
 				<source src="VehicleDynamicsVideo.mp4" type="video/mp4" />
-			</article>
 
-			<article>
-				<h2>Upcoming Shows</h2>
-				<p>TBA</p>
-			</article>
-			<article>
-				<h2>Location</h2>
-				<p>717 Hale St. <br>Normal, IL 61761</p>
-			</article>
+			<a href="Chuck's_Papas.jpg" data-fancybox="gallery" data-caption="Chuck's Papas">
+	      <img src="Chuck's_Papas.jpg">
+
+			<a href="VehicleDynamics.jpeg" data-fancybox="gallery" data-caption="Vehicle Dynamics">
+				<img src="VehicleDynamics.jpeg">
+
+				<div id="myCarousel" class="carousel">
+					<div class="carousel"><img src="Chuck's_Papas.jpg"></div>
+					<div class="carousel"><img src="VehicleDynamics.jpeg"></div>
+					<div class="carousel"><video src="VehicleDynamicsVideo.mp4"></div>
+				</div>
+
+				<script>
+			  const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+			    // Your options go here
+			  });
+			</script>
+
 		</main>
 
 		<footer>

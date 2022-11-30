@@ -110,6 +110,7 @@ footer a {
   font-size: 2em;
   transition all .5s;
   text-shadow: 1px 1px 1px black;
+  text-decoration: none;
 }
 
 footer a:hover {
@@ -124,5 +125,41 @@ article p {
 }
  video {
    border-radius: 10px;
-   padding-top: 20px
+   padding-top: 20px;
  }
+
+form {
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+label {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  color: #170724;
+
+  --carousel-button-bg: #fff;
+  --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0
+          0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+  --carousel-button-svg-width: 20px;
+  --carousel-button-svg-height: 20px;
+  --carousel-button-svg-stroke-width: 2.5;
+}
+
+.carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  height: 160px;
+  margin-right: 6px;
+
+  background-color: #eee;
+  border-radius: 6px;
+}
